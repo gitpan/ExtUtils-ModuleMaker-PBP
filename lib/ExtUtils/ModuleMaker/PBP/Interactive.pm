@@ -1,5 +1,5 @@
 package ExtUtils::ModuleMaker::PBP::Interactive;
-# as of 09-29-2005
+# as of 04-05-2006
 use strict;
 local $^W = 1;
 BEGIN {
@@ -9,7 +9,7 @@ BEGIN {
         ExtUtils::ModuleMaker
     );
     use vars qw ( $VERSION );
-    $VERSION = '0.08';
+    $VERSION = '0.09';
 }
 use Carp;
 use Data::Dumper;
